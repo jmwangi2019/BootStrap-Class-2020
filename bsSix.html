@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NavBar with Carousel</title>
+    <link rel="icon" href="images/logoi.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<hr>
+<div class="logo">
+    <img src="images/logoi.png" alt="Logo" width="400" height="150">
+</div>
+<hr>
+<nav class="navbar navbar-expand-sm bg-dark justify-content-end navbar-dark">
+    <!-- Brand -->
+<!--    <a class="navbar-brand" href="#">Inceptor ICT Training Centre</a>-->
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Our Programmes
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Mobile Information Technology (MIT)</a>
+                    <a class="dropdown-item" href="#">Graphic Design</a>
+                    <a class="dropdown-item" href="#">Digital Entrepreneurship</a>
+                    <a class="dropdown-item" href="#">Digital Marketing</a>
+                    <a class="dropdown-item" href="#">Computer Repair</a>
+                    <a class="dropdown-item" href="#">Mobile Repair</a>
+                    <a class="dropdown-item" href="#">Microsoft Office</a>
+                    <a class="dropdown-item" href="#">Python</a>
+                    <a class="dropdown-item" href="#">JavaScript</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Career Opportunities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="slides/car1.jpg" alt="Picture One" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture One</h3>
+                <p>My First Image Slide</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slides/car11.jpg" alt="Picture Two" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture Two</h3>
+                <p>My Second Image Slide</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slides/carOne.jpg" alt="Picture Three" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture Three</h3>
+                <p>My Third Image Slide</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slides/carTwo.jpg" alt="Picture Four" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture Four</h3>
+                <p>My Fourth Image Slide</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slides/img1.jpg" alt="Picture Five" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture Five</h3>
+                <p>My Fifth Image Slide</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="slides/img2.jpg" alt="Picture Six" width="100%" height="550">
+            <div class="carousel-caption">
+                <h3>Picture Six</h3>
+                <p>My Sixth Image Slide</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<div class="container">
+    <h2>Home</h2>
+    <div class="row">
+        <div class="col-sm-3">
+            <h5 class="text-center"><u>About Us</u></h5>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam
+                assumenda debitis dicta dignissimos error esse est facilis fugiat illo, libero magni modi neque
+                perspiciatis possimus sed suscipit, voluptas voluptatibus?</p>
+            <hr>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <h5 class="text-center"><u>Courses</u></h5>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam
+                assumenda debitis dicta dignissimos error esse est facilis fugiat illo, libero magni modi neque
+                perspiciatis possimus sed suscipit, voluptas voluptatibus?</p>
+            <hr>
+            <div class="buttons">
+                <a href="#" class="btn btn-info">Read More</a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <h5 class="text-center"><u>FAQ</u></h5>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam
+                assumenda debitis dicta dignissimos error esse est facilis fugiat illo, libero magni modi neque
+                perspiciatis possimus sed suscipit, voluptas voluptatibus?</p>
+            <hr>
+            <div class="buttons">
+                <a href="#" class="btn btn-danger">Read More</a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <h5 class="text-center"><u>Contact Us</u></h5>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam
+                assumenda debitis dicta dignissimos error esse est facilis fugiat illo, libero magni modi neque
+                perspiciatis possimus sed suscipit, voluptas voluptatibus?</p>
+            <hr>
+            <div class="buttons">
+                <a href="#" class="btn btn-warning">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="footer">
+    <h5 class="text-center">Copyright &copy; 2020. Inceptor ICT Training Centre</h5>
+</div>
+</body>
+</html>
